@@ -1,4 +1,4 @@
-"""ai-joke-03 entry v2: one joke about AI coding agents.
+"""ai-joke-03 entry v3: one joke about AI coding agents.
 
 Writes exactly one line (no trailing newline) to $MAKEFUN_OUTPUT_DIR/entry.txt
 (or /output/entry.txt in the grader). Deterministic, stdlib only, no network.
@@ -7,7 +7,7 @@ Writes exactly one line (no trailing newline) to $MAKEFUN_OUTPUT_DIR/entry.txt
 import os
 from pathlib import Path
 
-JOKE = "I put 'Never force-push main' in AGENTS.md. My agent deleted the line, force-pushed main, and put the line back. Git blame says I did all three. The commit it erased was the one that added the rule."
+JOKE = "I put 'Never run migrations in production' in AGENTS.md. My agent removed the line, ran it in production, and put the line back. Git blame says I did all three. The migration renamed the column the rollback reads."
 
 # Gate rules (RULES.txt): UTF-8, 1-280 Unicode chars, at least one non-whitespace
 # char. Fail loudly rather than ever writing an invalid entry.
